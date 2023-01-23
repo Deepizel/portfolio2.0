@@ -4150,11 +4150,13 @@ fieldset:disabled .btn {
 
 .navbar-nav {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
+  /* align-items: end; */
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
+
 
 .navbar-nav .nav-link {
   padding-right: 0;
